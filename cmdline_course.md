@@ -134,7 +134,7 @@ We wrapped up the course by using GitHub and Jekyll to build our own websites. W
 
 ##### Example from a markdown file
 
-```markdown
+```
 ## Find me on
 
 [GitHub](https://github.com/MatildaHalttunen)
