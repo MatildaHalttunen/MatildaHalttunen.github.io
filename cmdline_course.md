@@ -49,6 +49,14 @@ This command would adjust the read, write and execute permissions of the example
 
 This week we were introduced to basic text processing tools, and learned about different character encodings. We also learned how to manage formatted text files in the command line environment.
 
+##### Example command
+
+```
+dos2unix
+```
+
+Windows and Unix files have different line-end encodings. This command takes a Windows-encoded file and translates it to Unix encoding.
+
 ### Week 4: Advanced Corpus Processing
 
 During the fourth week we learned to use piping to create more complex text processing commands without creating a surplus of files. We also learned about sed and some basics on how to use it when editing large text files.
