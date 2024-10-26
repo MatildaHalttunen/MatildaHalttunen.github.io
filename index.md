@@ -4,7 +4,7 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/Hatilda.jpg" alt="Photo" hspace="20" width="30%" align="right"/> I am a current student at the University of Helsinki majoring in General Linguistics, with specialisation on phonetics and language technologies. In my previous life I was a musician, although perhaps you could still call me one as it is a dear semi-professional hobby. I have previously studied in the UK, gaining my bachelor's of music form Middlesex University and MA from Goldmsmiths College. During my studies I specialised in popular music research. I don't upkeep much of a presence online, but below you can find a link to my GitHub repository.
+<img src="assets/images/Hatilda.jpg" alt="Photo" hspace="20" width="30%" align="right"/> I am a current student at the University of Helsinki majoring in General Linguistics, with specialisation on phonetics and language technology. In my previous life I was a musician, although perhaps you could still call me one as it is a dear semi-professional hobby of mine. I have previously studied in the UK, gaining my bachelor's of music form Middlesex University and MA from Goldmsmiths College. During my studies I specialised in popular music research. I don't upkeep much of a presence online, but below you can find a link to my GitHub.
 
 ## Find me on
 
