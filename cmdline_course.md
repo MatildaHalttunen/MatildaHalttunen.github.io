@@ -6,7 +6,7 @@ layout: default
 
 This was an online course to introduce the students to command line and its different uses, and how to benefit from it in their work. The course was specifically aimed towards linguistics students.
 
-![Luke Skywalker command line meme](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikGeMQVbPLFoYNr8brw5JZSLmlQgYRHmm-Tr89x4pgVeMMFpx-5hqUDQPxldmlk72AZCfT49smhq5cZDZNUn-jK1CJTzISMoxby2USLD2Z_6WoaYcuofe-EZDUqql9bG9d3RGqTjVjzIg/s1600/download.jpg)
+![Luke Skywalker command line meme](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikGeMQVbPLFoYNr8brw5JZSLmlQgYRHmm-Tr89x4pgVeMMFpx-5hqUDQPxldmlk72AZCfT49smhq5cZDZNUn-jK1CJTzISMoxby2USLD2Z_6WoaYcuofe-EZDUqql9bG9d3RGqTjVjzIg/s1600/download.jpg) 
 
 ### Week 1: Intoruduction to Command Line Environments
 
@@ -43,6 +43,11 @@ This week we learned to understand and construct scripts to help us run more com
 ### Week 6: Installing and Running Programs
 
 Week six saw us learning how to insall and update programs using package managers such as brew. We were also introduced to make and how to create and use makefiles.
+
+````
+%.freq: %.no_md.txt
+    bin/freqlist.sh $< $@
+```
 
 ##### Example results of most frequent words
 
