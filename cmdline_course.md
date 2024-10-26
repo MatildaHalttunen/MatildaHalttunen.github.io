@@ -12,6 +12,18 @@ This was an online course to introduce the students to command line and its diff
 
 During this first week we learned to open and use the command line environment on our chosen operating system, as well as some basic commands.
 
+Commands learned during the first week included the following:
+ * whoami
+ * pwd
+ * ls
+ * cd
+ * mkdir
+ * cp
+ * mv
+ * cat
+ * less
+ * man
+
 ### Week 2: Navigating a UNIX System
 
 During the second week we were introduced to UNIX systems as well as remote servers and their safe use with **ssh**. We were also introdduced to process management and controling the processes from the command line.
