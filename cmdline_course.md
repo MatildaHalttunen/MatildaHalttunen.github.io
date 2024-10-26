@@ -61,9 +61,34 @@ Windows and Unix files have different line-end encodings. This command takes a W
 
 During the fourth week we learned to use piping to create more complex text processing commands without creating a surplus of files. We also learned about sed and some basics on how to use it when editing large text files.
 
+##### Example command
+
+```
+sed '/^$/d' example.txt
+```
+
+The above sed command deletes all empty lines from the example.txt file.
+
 ### Week 5: Scripting and Configuration Files
 
 This week we learned to understand and construct scripts to help us run more complex text editing. We were also introduced to configuring files and how to use them to alter system behaviour through environmental variables.
+
+##### Example script
+
+```
+#! /bin/bash
+
+# if an adjective ends with a consonant, print a comparative form.
+
+if [[ "$1" =~ [aeioyu]$ ]];
+then
+   echo "$1"
+else
+   echo "$1""er"
+fi
+```
+
+This script takes one argument, in this case an English adjective ending with a consonant, and creates a comparative form for it.
 
 ### Week 6: Installing and Running Programs
 
