@@ -27,13 +27,23 @@ Commands learned during the first week included the following:
 ##### Example command
 
  ````
->whoami
+whoami
 gustaf
 ````
 
+This command is to determine who is the current logged in user.
+
 ### Week 2: Navigating a UNIX System
 
-During the second week we were introduced to UNIX systems as well as remote servers and their safe use with ssh. We were also introdduced to process management and controling the processes from the command line.
+During the second week we were introduced to UNIX systems as well as remote servers and their safe use with ssh. We were also introdduced to process management and controling the processes from the command line, as well as using the chmod-command to manage the read, write and execute permissions of files.
+
+##### Example command
+
+```
+chmod 654 example.txt
+````
+
+This command would adjust the read, write and execute permissions of the example file in such a way that the owner of the file would have read and write permissions, the group would have read and execute permissions, and others would have read permission.
 
 ### Week 3: Basic Corpus Processing
 
