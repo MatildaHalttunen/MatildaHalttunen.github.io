@@ -75,7 +75,7 @@ This week we learned to understand and construct scripts to help us run more com
 
 ##### Example script
 
-```
+```python
 #! /bin/bash
 
 # if an adjective ends with a consonant, print a comparative form.
@@ -94,7 +94,20 @@ This script takes one argument, in this case an English adjective ending with a 
 
 Week six saw us learning how to insall and update programs using package managers such as brew. We were also introduced to make and how to create and use makefiles.
 
-##### Example results of most frequent words
+##### Example make rule
+
+```python
+%.no_md.txt: %.txt
+	python3 src/remove_gutenberg_metadata.py $< $@
+
+results/%.freq.txt: data/%.no_md.txt 
+	src/freqlist.sh $< $@
+```
+
+The first example make rule has target %.no_md.txt and dependency %.txt. It uses python code to remove the metadata from the dependency files.  
+The second example make rule has target %.freq.txt and dependency %.no:md.txt. It uses the freqlist.sh script to create word frequency lists from the dependency files. 
+
+##### Example results of running the make rules
 
 A Christmas Carol | Dracula | Life of Bee
 --- | --- | ---
