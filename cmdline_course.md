@@ -118,7 +118,15 @@ of | to | to
 
 ### Week 7: Version Control
 
-During the week seven we were introduced to the importance of version control, and were shown how to use git. We also created our own GitHub accounts to keep track of our prrojects.
+During week seven we were introduced to the importance of version control, and were shown how to use git. We also created our own GitHub accounts to keep track of our prrojects.
+
+##### Example command
+
+```
+git commit -m "This is an example commitment"
+```
+
+The above git command commits the changes made in the local repository to the remote repository with an added comment, which helps track the changes committed.
 
 ### Final Assignment
 
