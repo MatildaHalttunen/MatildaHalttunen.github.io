@@ -24,6 +24,13 @@ Commands learned during the first week included the following:
  * less
  * man
 
+##### Example command
+
+ ````
+>whoami
+gustaf
+````
+
 ### Week 2: Navigating a UNIX System
 
 During the second week we were introduced to UNIX systems as well as remote servers and their safe use with ssh. We were also introdduced to process management and controling the processes from the command line.
@@ -43,11 +50,6 @@ This week we learned to understand and construct scripts to help us run more com
 ### Week 6: Installing and Running Programs
 
 Week six saw us learning how to insall and update programs using package managers such as brew. We were also introduced to make and how to create and use makefiles.
-
-````
-%.freq: %.no_md.txt
-    bin/freqlist.sh $< $@
-```
 
 ##### Example results of most frequent words
 
