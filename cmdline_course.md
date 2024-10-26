@@ -26,7 +26,7 @@ Commands learned during the first week included the following:
 
 ### Week 2: Navigating a UNIX System
 
-During the second week we were introduced to UNIX systems as well as remote servers and their safe use with **ssh**. We were also introdduced to process management and controling the processes from the command line.
+During the second week we were introduced to UNIX systems as well as remote servers and their safe use with ssh. We were also introdduced to process management and controling the processes from the command line.
 
 ### Week 3: Basic Corpus Processing
 
@@ -34,7 +34,7 @@ This week we were introduced to basic text processing tools, and learned about d
 
 ### Week 4: Advanced Corpus Processing
 
-During the fourth week we learned to use piping to create more complex text processing commands without creating a surplus of files. We also learned about **sed** and some basics on how to use it when editing large text files.
+During the fourth week we learned to use piping to create more complex text processing commands without creating a surplus of files. We also learned about sed and some basics on how to use it when editing large text files.
 
 ### Week 5: Scripting and Configuration Files
 
@@ -42,7 +42,16 @@ This week we learned to understand and construct scripts to help us run more com
 
 ### Week 6: Installing and Running Programs
 
-Week six saw us learning how to insall and update programs using package managers such as **brew**. We were also introduced to make and how to create and use makefiles.
+Week six saw us learning how to insall and update programs using package managers such as brew. We were also introduced to make and how to create and use makefiles.
+
+##### Example results of most frequent words
+
+A Christmas Carol | Dracula | Life of Bee
+--- | --- | ---
+the | the | the
+and | and | of
+a | I | and
+of | to | to
 
 ### Week 7: Version Control
 
