@@ -131,3 +131,13 @@ The above git command commits the changes made in the local repository to the re
 ### Final Assignment
 
 We wrapped up the course by using GitHub and Jekyll to build our own websites. We were introduced to markdown and its different uses.
+
+##### Example from a markdown file
+
+```markdown
+## Find me on
+
+[GitHub](https://github.com/MatildaHalttunen)
+```
+
+This markdown text will create a header size 2 and a link to my Git Hub page with the link text "GitHub".
