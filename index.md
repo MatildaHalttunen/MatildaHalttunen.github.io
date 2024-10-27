@@ -33,7 +33,7 @@ My email address is of the form first_name.last_name@helsinki.fi.
 
 [Johdatus logiikkaan](https://studies.helsinki.fi/kurssit/toteutus/otm-2837eb14-773f-4cb3-87cd-e9c292e13f95/FILK-114), summer 2024
 
-[Comman Line Tools for Linguists](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2425-261401a1-c550-4436-91b9-7edf4a1a3b57/KIK-LG221), autumn 2024
+[Command Line Tools for Linguists](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2425-261401a1-c550-4436-91b9-7edf4a1a3b57/KIK-LG221), autumn 2024
 
 [Baskin kieli 3](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2425-7dd88219-1141-49b6-8910-a45b2f658c79/KIK-EU103), autumn 2024
 
