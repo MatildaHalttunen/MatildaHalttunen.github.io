@@ -4,9 +4,9 @@ layout: default
 
 ## Command Line Tools for Linguists
 
-This was an online course to introduce the students to command line and its different uses, and how to benefit from it in their work. The course was specifically aimed towards linguistics students.
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikGeMQVbPLFoYNr8brw5JZSLmlQgYRHmm-Tr89x4pgVeMMFpx-5hqUDQPxldmlk72AZCfT49smhq5cZDZNUn-jK1CJTzISMoxby2USLD2Z_6WoaYcuofe-EZDUqql9bG9d3RGqTjVjzIg/s1600/download.jpg" alt="Photo" hspace="20" width="30%" align="right"/> 
+This was an online course to introduce the students to command line and its different uses, and how to benefit from it in their work. The course was specifically aimed towards linguistics students. 
 
-![Luke Skywalker command line meme](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikGeMQVbPLFoYNr8brw5JZSLmlQgYRHmm-Tr89x4pgVeMMFpx-5hqUDQPxldmlk72AZCfT49smhq5cZDZNUn-jK1CJTzISMoxby2USLD2Z_6WoaYcuofe-EZDUqql9bG9d3RGqTjVjzIg/s1600/download.jpg) 
 
 ### Week 1: Intoruduction to Command Line Environments
 
@@ -26,24 +26,26 @@ Commands learned during the first week included the following:
 
 ##### Example command
 
- ````
+ ```
 whoami
 gustaf
-````
+```
 
 This command is to determine who is the current logged in user.
 
+
 ### Week 2: Navigating a UNIX System
 
-During the second week we were introduced to UNIX systems as well as remote servers and their safe use with ssh. We were also introdduced to process management and controling the processes from the command line, as well as using the chmod-command to manage the read, write and execute permissions of files.
+During the second week we were introduced to UNIX systems as well as remote servers and safely conecting to them using ssh. We were also introdduced to process management and controling the processes from the command line, as well as using the chmod-command to manage the read, write and execute permissions of files.
 
 ##### Example command
 
 ```
 chmod 654 example.txt
-````
+```
 
 This command would adjust the read, write and execute permissions of the example file in such a way that the owner of the file would have read and write permissions, the group would have read and execute permissions, and others would have read permission.
+
 
 ### Week 3: Basic Corpus Processing
 
@@ -52,10 +54,11 @@ This week we were introduced to basic text processing tools, and learned about d
 ##### Example command
 
 ```
-dos2unix
+dos2unix example.txt
 ```
 
 Windows and Unix files have different line-end encodings. This command takes a Windows-encoded file and translates it to Unix encoding.
+
 
 ### Week 4: Advanced Corpus Processing
 
@@ -68,6 +71,7 @@ sed '/^$/d' example.txt
 ```
 
 The above sed command deletes all empty lines from the example.txt file.
+
 
 ### Week 5: Scripting and Configuration Files
 
@@ -90,9 +94,10 @@ fi
 
 This script takes one argument, in this case an English adjective ending with a consonant, and creates a comparative form for it.
 
+
 ### Week 6: Installing and Running Programs
 
-Week six saw us learning how to insall and update programs using package managers such as brew. We were also introduced to make and how to create and use makefiles.
+Week six saw us learning how to install and update programs using package managers such as brew. We were also introduced to make and how to create and use makefiles.
 
 ##### Example make rule
 
@@ -116,9 +121,10 @@ and | and | of
 a | I | and
 of | to | to
 
+
 ### Week 7: Version Control
 
-During week seven we were introduced to the importance of version control, and were shown how to use git. We also created our own GitHub accounts to keep track of our prrojects.
+During week seven we were introduced to the importance of version control, and were shown how to use git. We also created our own GitHub accounts to keep track of our projects.
 
 ##### Example command
 
@@ -127,6 +133,7 @@ git commit -m "This is an example commitment"
 ```
 
 The above git command commits the changes made in the local repository to the remote repository with an added comment, which helps track the changes committed.
+
 
 ### Final Assignment
 
